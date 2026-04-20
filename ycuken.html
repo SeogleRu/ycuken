@@ -1,0 +1,52 @@
+<html>
+   <head>
+     <meta charset="utf-8" />
+	 <title>Йцукен</title>
+      <style>
+        body {
+            font-family: Arial;
+            background-color: White;
+            margin: 20px;
+        }
+        h1 {
+           font-family: Impact; 
+color: Orange;
+        }
+		h2 {
+            font-family: Segoe UI Light;
+			color: Orange;
+        }
+		h3 {
+            font-family: Arial;
+			color: Black;
+		
+    </style>
+   </head>
+   
+   <body>
+	  <nav>
+	  <div>
+	  <h1>Йцукен</h1>
+	  <input id="key" name="key" placeholder="Поиск Йцукен"/><form action="https://yandex.ru/search" method="post"><input type="submit" value=" Искать!" name="send"><a href="https://cse.google.com/cse?cx=8257199cc439e4fcc">Поиск в Google</a>
+	  <h3>Популярные поисковые запросы:</h4>
+	  <ul>
+	    <li><a href="https://yandex.ru/search/?text=%D0%9A%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%BA%D1%80%D0%B0%D0%B1%D1%81%D0%B1%D1%83%D1%80%D0%B3%D0%B5%D1%80+%D0%B2+%D0%BA%D1%80%D0%B0%D1%81%D1%82%D0%B8+%D0%BA%D1%80%D0%B0%D0%B1%D0%B5&lr=2">Купить крабсбургер в красти крабе </a></li>
+	  </ul>
+	  
+      </div>
+	  </nav>
+	  
+      <script>
+       const btn = document.getElementById("btn");
+       const keyField = document.getElementById("key");
+       btn.addEventListener("click", ()=>{
+ 
+       const result = find(keyField.value);    
+       console.log(result);
+});  
+	  </script>
+   <footer>
+    <p>© SEOGLE</p>
+	</footer>
+   </body>
+</html>
